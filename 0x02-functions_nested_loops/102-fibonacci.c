@@ -7,21 +7,21 @@
 int main(void)
 {
 	int count;
-	int first = 1, second = 2;
-	int next = first + second;
+	long int first = 1, second = 2;
+	long int next = first + second;
 
-	printf("%d, ", first);
-	printf("%d, ", second);
+	printf("%lu, ", first);
+	printf("%lu, ", second);
 
 	for (count = 3; count <= 50; count++)
 	{
 		if (count == 50)
 		{
-			printf("%d\n", next);
+			printf("%lu\n", next);
 		}
 		else
 		{
-			printf("%d, ", next);
+			printf("%lu, ", next);
 		}
 		first = second;
 		second = next;
