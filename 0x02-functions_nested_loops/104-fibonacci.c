@@ -7,21 +7,21 @@
 int main(void)
 {
 	int count;
-	long long int first = 1, second = 2;
-	long long int next = first + second;
+	unsigned long first = 1, second = 2;
+	unsigned long next = first + second;
 
-	printf("%llu, ", first);
-	printf("%llu, ", second);
+	printf("%lu, ", first);
+	printf("%lu, ", second);
 
 	for (count = 3; count <= 98; count++)
 	{
 		if (count == 98)
 		{
-			printf("%llu\n", next);
+			printf("%lu\n", next);
 		}
 		else
 		{
-			printf("%llu, ", next);
+			printf("%lu, ", next);
 		}
 		first = second;
 		second = next;
