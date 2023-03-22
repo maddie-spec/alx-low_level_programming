@@ -10,6 +10,9 @@ int main(void)
 	int first = 1, second = 2;
 	int next = first + second;
 
+	printf("%d, ", first);
+	printf("%d, ", second);
+
 	for (count = 3; count <= 50; count++)
 	{
 		if (count == 50)
