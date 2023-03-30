@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - letter upper
- * @s: a string
+ * @n: a string
  * Return: 0
  */
 char *string_toupper(char *n)
